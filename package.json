@@ -1,6 +1,6 @@
 {
 	"name": "reopen-cli",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Improvement over `open` utility for macOS and Chrome; open URLs in the browser but instead of creating new tabs every time, use existing ones by mutating them.",
 	"keywords": [
 		"open",
