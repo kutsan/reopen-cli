@@ -26,7 +26,7 @@ buildArguments()
 const URL_TO_GO = process.argv[1]
 
 // Regex for URL searching.
-const URL_REGEX = process.argv[2]
+const URL_REGEX = new RegExp('https?://[^/ ]+').exec(URL_TO_GO)[0]
 
 // The variable that will hold our target location.
 // @type {number}

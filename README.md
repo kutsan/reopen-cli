@@ -25,12 +25,12 @@ npm install reopen-cli --global
 ### Synopsis
 
 ```sh
-reopen <url> <regex for searching tabs>
+reopen <url>
 ```
 
 ### Example
 
 ```sh
-reopen 'https://devdocs.io/#q=html' 'https://devdocs.io'
-reopen 'https://devdocs.io/#q=react' 'https://devdocs.io'
+reopen 'https://devdocs.io/#q=html'
+reopen 'https://devdocs.io/#q=react'
 ```
