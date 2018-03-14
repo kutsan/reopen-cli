@@ -1,5 +1,10 @@
 # reopen
 
+|        | Comparison with macOS's open         |
+|--------|--------------------------------------|
+| open   | ![](https://i.imgur.com/frcd25E.gif) |
+| reopen | ![](https://i.imgur.com/PgMxiUH.gif) |
+
 It needs `osascript` which is pre-installed macOS utility and Google Chrome.
 
 [rhysd/devdocs.vim#4](https://github.com/rhysd/devdocs.vim/issues/4) is the reason for this repository.
