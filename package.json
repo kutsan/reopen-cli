@@ -8,7 +8,7 @@
 	],
 	"license": "GPLv3",
 	"author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
-	"repository": "github:kutsan/reopen",
+	"repository": "github:kutsan/reopen-cli",
 	"bin": {
 		"reopen": "src/bin.js"
 	},

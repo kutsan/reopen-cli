@@ -1,4 +1,4 @@
-# reopen
+# reopen-cli
 
 |        | Comparison with macOS's open         |
 |--------|--------------------------------------|
