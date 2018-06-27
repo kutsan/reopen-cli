@@ -39,3 +39,7 @@ reopen <url>
 reopen 'https://devdocs.io/#q=html'
 reopen 'https://devdocs.io/#q=react'
 ```
+
+## License
+
+GPL-3.0
