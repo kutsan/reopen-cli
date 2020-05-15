@@ -2,17 +2,18 @@
 	"name": "reopen-cli",
 	"version": "0.2.1",
 	"description": "Improvement over `open` utility for macOS and Chrome; open URLs in the browser but instead of creating new tabs every time, use existing ones by mutating them.",
-	"preferGlobal": true,
-	"keywords": ["open", "osascript"],
+	"keywords": [
+		"open",
+		"osascript"
+	],
+	"repository": "github:kutsan/reopen-cli",
 	"license": "GPL-3.0",
 	"author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
-	"repository": "github:kutsan/reopen-cli",
 	"bin": {
 		"reopen": "src/bin.js"
 	},
 	"scripts": {
-		"start": "./src/bin.js",
-		"test": ""
+		"start": "./src/bin.js"
 	},
 	"dependencies": {},
 	"devDependencies": {}
