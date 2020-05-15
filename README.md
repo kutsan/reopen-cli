@@ -1,13 +1,14 @@
-# reopen-cli
+# `reopen-cli` [![npm](https://img.shields.io/npm/v/reopen-cli?style=flat-square)](https://www.npmjs.com/package/reopen-cli)
 
-|        | Comparison with macOS's open         |
+|        | Comparison with macOS's `open`       |
 |--------|--------------------------------------|
 | open   | ![](https://i.imgur.com/frcd25E.gif) |
 | reopen | ![](https://i.imgur.com/PgMxiUH.gif) |
 
-It needs `osascript` which is pre-installed macOS utility and Google Chrome.
+## Requirements
 
-[rhysd/devdocs.vim#4](https://github.com/rhysd/devdocs.vim/issues/4) is the reason for this repository.
+- `osascript` which is pre-installed macOS utility
+- Google Chrome
 
 ## Features
 
@@ -22,7 +23,7 @@ It needs `osascript` which is pre-installed macOS utility and Google Chrome.
 ## Installation
 
 ```sh
-npm install reopen-cli --global
+npm install --global reopen-cli
 ```
 
 ## Usage
@@ -30,7 +31,7 @@ npm install reopen-cli --global
 ### Synopsis
 
 ```sh
-reopen <url>
+reopen '<url>'
 ```
 
 ### Example
@@ -39,6 +40,26 @@ reopen <url>
 reopen 'https://devdocs.io/#q=html'
 reopen 'https://devdocs.io/#q=react'
 ```
+
+### Using with vim
+
+Although you can use with any URL, one particular example would be opening
+[devdocs.io](https://devdocs.io) upon pressing `'keywordprg'` mapping which is `K` by default.
+
+Create a command.
+
+```vim
+command! -nargs=* Docs call system(printf('reopen "https://devdocs.io/?q=%s"', <q-args>))
+```
+
+Set `'keywordprg'` to that command.
+
+```vim
+set keywordprg=:Docs
+```
+
+Now, pressing `K` under any keyword (or e.g. `:Docs child_process`) will bring
+DevDocs docs and repeating that would replace current open tab.
 
 ## License
 
