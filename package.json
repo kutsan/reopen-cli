@@ -4,7 +4,8 @@
 	"description": "Improvement over `open` utility for macOS and Chrome; open URLs in the browser but instead of creating new tabs every time, use existing ones by mutating them.",
 	"keywords": [
 		"open",
-		"osascript"
+		"osascript",
+		"cli"
 	],
 	"repository": "github:kutsan/reopen-cli",
 	"license": "GPL-3.0",
