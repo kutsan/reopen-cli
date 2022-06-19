@@ -1,4 +1,8 @@
-# `reopen-cli` [![npm](https://img.shields.io/npm/v/reopen-cli?style=flat-square)](https://www.npmjs.com/package/reopen-cli)
+<img width="100" src="https://github.com/kutsan/reopen-cli/raw/master/.github/assets/logo.png" alt="Logo" />
+
+# reopen-cli
+
+[![npm](https://img.shields.io/npm/v/reopen-cli)](https://www.npmjs.com/package/reopen-cli)
 
 |        | Comparison with macOS's `open`       |
 |--------|--------------------------------------|
